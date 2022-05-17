@@ -1,0 +1,34 @@
+.card {
+	float: left;
+	display: inline-block;
+}
+
+.container {
+	align-content: center;
+	text-align: center;
+}
+
+.titleBox {
+	height: 100vh;
+ 	background-size: cover;
+	background-image: url("C:/Users/cuemi/Downloads/Fondo.jpg");
+	filter: blur(5px);
+  	-webkit-filter: blur(5px)
+
+ 	position: relative;
+}
+
+.titleText {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-weight: 500;
+	font-size: 7rem;
+	color: white;
+	text-shadow: 3px 3px 5px black;
+	filter: !important none;
+  	-webkit-filter: !important none;
+
+}
