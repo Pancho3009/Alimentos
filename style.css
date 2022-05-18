@@ -1,6 +1,7 @@
 .card {
 	float: left;
 	display: inline-block;
+	height: 270px;
 }
 
 .container {
@@ -32,3 +33,11 @@
   	-webkit-filter: !important none;
 
 }
+
+.card-img-top {
+	height: 150px;
+}
+
+
+
+
